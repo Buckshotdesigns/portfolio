@@ -1,0 +1,17 @@
+
+#center-image {
+    background: url(../images/diagonal-squares.png);
+    padding: 40px 0;
+}
+
+.container {
+    background-color: #ffffff;
+   
+}
+
+h2 {
+    background-color: #4aaaa5;
+    padding: 0 20px;
+    position: relative;
+    bottom: -15px;
+}
