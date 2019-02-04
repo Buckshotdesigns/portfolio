@@ -71,3 +71,17 @@ form {
 .btn {
     background-color: #4aaaa5;
 }
+
+#thumbnail-images {
+    padding-left: 10px;
+}
+h4{
+    position: relative;
+    bottom: 50px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+   
+    padding: 5px 0;
+    
+}
