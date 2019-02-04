@@ -8,27 +8,7 @@ h2, h3 {
     font-family: 'Georgia', Times, 'Times New Roman', Times, serif;
 }
 
-li+li { 
-    border-left: 1px solid #cccccc;
-}
-
-a {
-    color: #777777;
-}
-
-#center-image {
-    background: url(../images/diagonal-squares.png);
-    padding: 40px 0 80px 0;
-    border-top: 4px solid #cccccc;
-    
-}
-
-.container {
-    background-color: #ffffff;
-    
-}
-
-
+/* navigation  */
 
 h2 {
     background-color: #4aaaa5;
@@ -39,9 +19,66 @@ h2 {
     left: -27px;
 }
 
+li+li { 
+    border-left: 1px solid #cccccc;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        padding: 0;
+    }
+
+    li+li {
+        border-left: none;
+    }
+
+    li {
+        padding: 0 10px;
+    }
+    h2 {
+       position: static;
+       text-align: center;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+    .navbar-nav {
+        flex-direction: row;
+
+    }
+    .navbar-brand{
+        margin: 0;
+        width: 100%;
+        padding: 20px 0;
+    }
+  
+    h1{
+        line-height: 1rem;
+        font-size: 1.75rem;
+    }
+}
+
+a {
+    color: #777777;
+}
+
+/* center content */
+
+#center-image {
+    background: url(../images/diagonal-squares.png);
+    padding: 40px 0 80px 0;
+    border-top: 4px solid #cccccc;
+}
+
+.container {
+    background-color: #ffffff;
+}
+
 h1 {
     color:  #4aaaa5;
-   margin: 30px;
+    margin: 30px;
 }
 
 #border {
@@ -52,9 +89,13 @@ h1 {
 .img {
     margin-left: 10px;
 }
+
 p {
     line-height: 2rem;
 }
+
+/* footer content */
+
 
 footer{
     background-color: #666666; 
@@ -64,6 +105,8 @@ footer{
     color: #777777;
 }
 
+/* form page */
+
 form {
     padding: 20px;
 }
@@ -72,16 +115,17 @@ form {
     background-color: #4aaaa5;
 }
 
+/* portfolio page */
+
 #thumbnail-images {
     padding-left: 10px;
 }
+
 h4{
     position: relative;
     bottom: 50px;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-   
     padding: 5px 0;
-    
 }
