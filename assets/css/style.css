@@ -21,6 +21,7 @@ h2 {
 
 li+li { 
     border-left: 1px solid #cccccc;
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -29,13 +30,10 @@ li+li {
         padding: 0;
     }
 
-    li+li {
-        border-left: none;
+    li {
+        padding: 10px;
     }
 
-    li {
-        padding: 0 10px;
-    }
     h2 {
        position: static;
        text-align: center;
@@ -46,9 +44,10 @@ li+li {
     }
     .navbar-nav {
         flex-direction: row;
+        margin: 0;
 
     }
-    .navbar-brand{
+    .navbar-brand {
         margin: 0;
         width: 100%;
         padding: 20px 0;
@@ -58,6 +57,8 @@ li+li {
         line-height: 1rem;
         font-size: 1.75rem;
     }
+
+   
 }
 
 a {
@@ -90,8 +91,16 @@ h1 {
     margin-left: 10px;
 }
 
+#bio-image {
+    width: 200px;
+}
 p {
     line-height: 2rem;
+}
+@media only screen and (max-width: 600px) { 
+    .single-post-content-wrapper {
+        flex-wrap: none;
+    }
 }
 
 /* footer content */
