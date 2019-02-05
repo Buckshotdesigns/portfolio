@@ -34,7 +34,7 @@ a:hover {
 
 /* media quieries for header and index page */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 
     .container{
         padding: 0;
@@ -79,7 +79,7 @@ a:hover {
 
    p {
        font-size: 0.75rem;
-       line-height: 1rem;
+
    }
 }
 
