@@ -161,6 +161,16 @@ h4{
     padding: 5px 0;
 }
 
+#dog-image {
+    height: 185px;
+    padding-left: 25px;
+    
+}
 
+@media only screen and (max-width: 375px) {
 
+#dog-image {
+    height: auto;
+}
 
+}
