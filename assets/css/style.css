@@ -150,17 +150,8 @@ h4{
     color: #ffffff;
     text-align: center;
     padding: 0 1rem;
-    
-    
 }
 
-
-#dog-image, #burger, #psychic, #giftastic {
-    height:12rem;
-}
-#giftastic {
-    width: 13rem;
-}
 .card{
     transition: transform .2s;
 }
@@ -168,32 +159,24 @@ h4{
     transform: scale(1.1);
 }
 
-@media only screen and (max-width: 1025px) {
-    #giftastic {
-        width: 10rem;
-    }
+#giftastic {
+    height: 10.5rem;
 }
-
-@media only screen and (max-width: 769px) {
-
-    #dog-image, #burger, #psychic, #giftastic {
-        height:10rem;
-       
-    }
+@media only screen and (max-width: 1172px) {
     #giftastic {
-        width: 10rem;
+        height: 8.5rem;
     }
 
 }
-@media only screen and (max-width: 550px) {
-
-    #dog-image, #burger, #psychic, #giftastic {
-        height:10rem;
-        width: 70%;
-       
-    }
+@media only screen and (max-width: 766px) {
     #giftastic {
-        width: 10rem;
+        height: 10rem;
+    }
+
+}
+@media only screen and (max-width: 574px) {
+    #giftastic {
+        height: auto;
     }
 
 }
