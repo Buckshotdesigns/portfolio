@@ -144,34 +144,56 @@ form {
     background-color: #4aaaa5;
 }
 
-/* portfolio page */
-
-#thumbnail-images {
-    padding-left: 10px;
-
-}
-
-
 h4{
-    position: relative;
-    bottom: 50px;
+    margin: 0;
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding: 5px 0;
-}
-
-#dog-image {
-    height: 180px;
-    padding-left: 25px;
+    padding: 0 1rem;
+    
     
 }
 
-@media only screen and (max-width: 425px) {
 
-#dog-image {
-    height: 100%;
-    width: 100%;
+#dog-image, #burger, #psychic, #giftastic {
+    height:12rem;
 }
+#giftastic {
+    width: 13rem;
+}
+.card{
+    transition: transform .2s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1025px) {
+    #giftastic {
+        width: 10rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+
+    #dog-image, #burger, #psychic, #giftastic {
+        height:10rem;
+       
+    }
+    #giftastic {
+        width: 10rem;
+    }
+
+}
+@media only screen and (max-width: 550px) {
+
+    #dog-image, #burger, #psychic, #giftastic {
+        height:10rem;
+        width: 70%;
+       
+    }
+    #giftastic {
+        width: 10rem;
+    }
 
 }
