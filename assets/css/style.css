@@ -9,9 +9,13 @@ h2, h3 {
 }
 
 /* navigation  */
+#nav-container {
+    background-color: #000000;
+    border-bottom: 4px solid #888888;
+}
 
 h2 {
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
     color: #ffffff;
     padding: 25px;
     position: relative;
@@ -80,13 +84,8 @@ a:hover {
 
    p {
        font-size: 0.75rem;
-
    }
-
-  
 }
-
-
 
 /* center content */
 
@@ -96,7 +95,7 @@ a:hover {
     border-top: 4px solid #cccccc;
 }
 
-.container {
+#index-container {
     background-color: #ffffff;
 }
 
@@ -127,8 +126,8 @@ p {
 
 
 footer{
-    background-color: #666666; 
-    border-top: 8px solid #4aaaa5;
+    background-color: #000000; 
+    border-top: 8px solid #2e3030;
     text-align: center;
     padding: 20px;
     color: #777777;
@@ -180,4 +179,29 @@ h4{
         height: auto;
     }
 
+}
+/* home page info */
+#background-fill {
+    background-color: #000000;
+
+}
+#main-image-holder {
+    background-image: url("../images/profile5.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+}
+
+#text-row {
+    position: relative;
+    bottom: -50px;
+}
+#left-main-home {
+    background-color: #f3920c;opacity: 0.6;
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    border-radius: 25px;
+    
 }
