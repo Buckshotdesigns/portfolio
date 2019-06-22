@@ -12,17 +12,17 @@
 <body>
     
      <!-- Navbar content-->
-
+<div id="nav-container">
     <div class="container">
             <nav class="navbar navbar-expand-md">
-                    <h2 class="navbar-brand">Bryan Buckus</h2>
+                    <div class="navbar-brand"><img id="my-logo"src="assets/images/b2logo.png"></div>
                         
                     <ul class="navbar-nav ml-md-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">About Me</a>
+                            <a class="nav-link" href="about.html">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="home.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -31,10 +31,11 @@
                 </div>
             </nav>
         </div> 
+    </div>
         
         <!-- center images content -->
 
-    <div id="center-image">
+    <div id="portfolio-image">
         <div class="container portfolio-container">
             <div class="row">
                 <h1>Portfolio</h1>
@@ -94,14 +95,15 @@
                                     <h4>Trivia Game</h4>
                                     
                             </div>
-                            <div class="w-100 d-none d-md-block d-lg-block d-xl-block"></div>
+                            <div class="w-100 d-none d-sm-block d-md-none"></div>
+                            <div class="w-100 d-none d-lg-block d-xl-block"></div>
                             <div class= "card shadow p-3 mb-5 bg-white rounded" >
                                 <a href="https://github.com/Buckshotdesigns/liri-node-app" target="blank"><img src="assets/images/liri.jpg" alt="siri-image" class="img-fluid" ></a>
                                    <h4>Liri Node App</h4>
                                    
                            </div>
-                           <div class="w-100 d-none d-sm-block d-md-block"></div>
-                            <div class="w-100 d-none d-lg-none d-xl-none"></div>
+                           
+                            <div class="w-100 d-none d-md-block d-lg-none"></div>  
                            <div class= "card shadow p-3 mb-5 bg-white rounded" >
                             <a href="https://mighty-brook-40725.herokuapp.com" target="blank"><img src="assets/images/cartoon.jpg" alt="smiley face" class="img-fluid" ></a>
                                <h4>Cartoon friend finder</h4>
@@ -112,17 +114,23 @@
                             <a href="https://mongo-scraper-nytimes-edition.herokuapp.com" target="blank"><img src="assets/images/ny-times.jpg" alt="newspapers" class="img-fluid" ></a>
                                <h4>NY Times Mongo Scraper</h4>
                             </div>
-                            <div class="w-100 d-none d-sm-block d-md-none"></div>
-                            <div class="w-100 d-none d-lg-none d-xl-none"></div>
+                            <!-- <div class="w-100 d-none d-sm-block d-md-block"></div>
+                            <div class="w-100 d-none d-lg-none d-xl-none"></div> -->
                            <div class= "card shadow p-3 mb-5 bg-white rounded" >
                             <a href="https://task-manager-project-2.herokuapp.com" target="blank"><img src="assets/images/task.jpg" alt="task graphic" class="img-fluid" ></a>
                                <h4>Task manager</h4>
                        </div>
                        <div class="w-100 d-none d-sm-block d-md-block"></div>
-                            <div class="w-100 d-none d-lg-block d-xl-block"></div>
+                            <div class="w-100 d-none d-lg-none d-xl-none"></div>
                            <div class= "card shadow p-3 mb-5 bg-white rounded" >
                             <a href=" https://buckshotdesigns.github.io/clicky-game/" target="blank"><img src="assets/images/simpsons.jpg" alt="task graphic" class="img-fluid" ></a>
                                <h4>Clicky Game</h4>
+                       </div>
+                       <!-- <div class="w-100 d-none d-sm-block d-md-block"></div>
+                            <div class="w-100 d-none d-lg-none d-xl-none"></div> -->
+                           <div class= "card shadow p-3 mb-5 bg-white rounded" >
+                            <a href=" https://buckshotdesigns.github.io/clicky-game/" target="blank"><img src="assets/images/simpsons.jpg" alt="task graphic" class="img-fluid" ></a>
+                               <h4>Project 3</h4>
                        </div>
                 
                 </div>
@@ -130,6 +138,8 @@
         </div>
     </div>
 
+    
+    
     <!-- footer -->
     
     <footer class="footer">

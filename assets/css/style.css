@@ -203,5 +203,11 @@ h4{
     margin-left: 5rem;
     margin-top: 5rem;
     border-radius: 25px;
-    
+}
+#portfolio-image {
+    background-image: url("../images/geo-background.jpg");
+}
+#my-logo {
+    width: 60px;
+    height: 45px;
 }
