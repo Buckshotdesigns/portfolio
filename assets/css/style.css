@@ -11,7 +11,9 @@ h2, h3 {
 /* navigation  */
 #nav-container {
     background-color: #000000;
-    border-bottom: 4px solid #888888;
+    border-bottom: 8px solid;
+    border-image: linear-gradient(90deg, #95dff5, #1120ea);
+    border-image-slice: 1;
 }
 
 h2 {
@@ -92,7 +94,7 @@ a:hover {
 #center-image {
     background: url(../images/diagonal-squares.png);
     padding: 40px 0 80px 0;
-    border-top: 4px solid #cccccc;
+    border-top: 4px solid #598ae5;
 }
 
 #index-container {
@@ -105,7 +107,7 @@ h1 {
 }
 
 #border {
-        border-bottom: 4px solid #cccccc;
+        border-bottom: 4px solid #598ae5;
         margin: 0 10px 40px 10px;
 }
 
@@ -127,7 +129,9 @@ p {
 
 footer{
     background-color: #000000; 
-    border-top: 8px solid #2e3030;
+    border-top: 8px solid;
+    border-image: linear-gradient(90deg, #1120ea, #95dff5);
+    border-image-slice: 1;
     text-align: center;
     padding: 20px;
     color: #777777;
@@ -201,4 +205,14 @@ h4{
 #my-logo {
     width: 60px;
     height: 45px;
+}
+
+#home-name {
+    height: 150px;
+    width: 440px;
+}
+#name-div {
+    position: relative;
+    left: 130px;
+    top: 100px;
 }
