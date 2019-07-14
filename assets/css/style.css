@@ -26,16 +26,16 @@ h2 {
 }
 
 li+li { 
-    border-left: 1px solid #cccccc;
+    border-left: 1px solid #0e1df3;
     
 }
 
 a {
-    color: #777777;
+    color: #13d1eb;
 }
 
 a:hover {
-    color: #4aaaa5;
+    color: #6b6d6d;
 }
 
 /* media quieries for header and index page */
@@ -180,12 +180,17 @@ h4{
     background-color: #000000;
 
 }
+#main-content-holder {
+    background-color: #000000;
+    padding-top: 2rem;
+}
 #main-image-holder {
     background-image: url("../images/profile5.gif");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
     background-position: center;
+    padding: 4rem;
 }
 
 #text-row {
@@ -209,10 +214,14 @@ h4{
 
 #home-name {
     height: 150px;
-    width: 440px;
+    width: 540px;
 }
 #name-div {
     position: relative;
-    left: 130px;
-    top: 100px;
+    left: 110px;
+    top: 75px;
+}
+#job-label{
+    font-family: 'Russo One', sans-serif;
+    margin-left: 50px;
 }
