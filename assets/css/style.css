@@ -16,18 +16,9 @@ h2, h3 {
     border-image-slice: 1;
 }
 
-h2 {
-    /* background-color: #4aaaa5; */
-    color: #ffffff;
-    padding: 25px;
-    position: relative;
-    bottom: -20px;
-    left: -27px;
-}
 
 li+li { 
     border-left: 1px solid #0e1df3;
-    
 }
 
 a {
@@ -102,7 +93,7 @@ a:hover {
 }
 
 h1 {
-    color:  #4aaaa5;
+    color:  #0e0ee2;
     margin: 30px;
 }
 
@@ -204,9 +195,7 @@ h4{
     margin-top: 5rem;
     border-radius: 25px;
 }
-#portfolio-image {
-    background-image: url("../images/geo-background.jpg");
-}
+
 #my-logo {
     width: 60px;
     height: 45px;
@@ -223,5 +212,6 @@ h4{
 }
 #job-label{
     font-family: 'Russo One', sans-serif;
-    margin-left: 50px;
+    margin: 20px 0 0 50px;
+    color: #ffffff;
 }
