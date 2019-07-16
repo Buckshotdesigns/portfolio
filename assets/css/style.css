@@ -33,10 +33,7 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
 
-    .container{
-        padding: 0;
-        width: 100%;
-    }
+  
 
     .navbar {
         padding: 0;
@@ -58,17 +55,6 @@ a:hover {
         margin: 10px 0;
     }
 
-    h2 {
-       position: static;
-       text-align: center;
-    }
-  
-    h1{
-        line-height: 1rem;
-        font-size: 1.75rem;
-        width: 100%;
-        text-align: center;
-    }
 
    #bio-image {
        margin-left: 20%;
@@ -137,36 +123,6 @@ h4{
     padding: 0 1rem;
 }
 
-.card{
-    transition: transform .2s;
-    
-}
-.card:hover {
-    transform: scale(1.1);
-}
-
-#giftastic {
-    height: 10.5rem;
-}
-@media only screen and (max-width: 1172px) {
-    #giftastic {
-        height: 8.5rem;
-    }
-
-}
-@media only screen and (max-width: 766px) {
-    #giftastic {
-        height: 10rem;
-    }
-
-}
-@media only screen and (max-width: 574px) {
-    #giftastic {
-        height: auto;
-    }
-
-}
-/* home page info */
 #background-fill {
     background-color: #000000;
 

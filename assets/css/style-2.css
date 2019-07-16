@@ -86,7 +86,7 @@
     overflow: hidden;
     transform: rotate(-33.5deg) translate(-112px,166px);
     transform-origin: 0% 100%;
-    transition: all 0.4s ease-in-out 0.3s;
+    transition: all 0.2s ease-in-out 0.3s;
 }
 .view-ninth h2{
     background: transparent;
@@ -147,11 +147,24 @@
 
 #dog-tag {
     text-align: center;
-    color: rgb(20, 196, 228);
+    color: rgb(9, 101, 238);
     background-color: #fff;
     padding: 5px 3px 5px 0;
     position: relative;
     top: 7px;
     margin-right: -1px;
     border-radius: 5px;
+}
+#top-row{
+    padding-bottom: 100px;
+}
+#bottom-row {
+    padding-bottom: 75px;
+}
+
+@media only screen and (max-width: 574px) {
+    #my-logo {
+        margin-left: 50px;
+    }
+
 }
