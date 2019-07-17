@@ -8,9 +8,10 @@ body {
 /* navigation  */
 #nav-container {
     background-color: #000000;
-    border-bottom: 8px solid;
     border-image: linear-gradient(90deg, #95dff5, #1120ea);
+    border-bottom: 8px solid;
     border-image-slice: 1;
+    
 }
 
 
@@ -77,9 +78,10 @@ h1 {
 }
 #center-image {
     background-image: url("../images/geometric-background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    overflow: hidden;
     min-height: 100%;
     padding-bottom: 200px;
 }
@@ -119,6 +121,11 @@ h1 {
         justify-content: center;
     }
 }
+@media only screen and (max-width: 426px) {
+    #bio-image {
+        width: 350px;
+    }
+}
 /* footer content */
 
 footer{
@@ -144,10 +151,10 @@ footer{
     background-image: url("../images/profile5.gif");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 90vh;
+    max-height: 100%;
     max-width:100%;
     background-position: center;
-    padding: 4rem;
+    padding: 14rem 4rem;
 }
 
 #text-row {
@@ -173,8 +180,8 @@ footer{
 }
 #name-div {
     position: relative;
-    left: 110px;
-    top: 30px;
+    left: 80px;
+    bottom: 60px;
 }
 
 #job-label{
@@ -186,22 +193,36 @@ footer{
     color: #fff;
     padding: 1.5rem 0 0 4rem;
 }
+@media only screen and (max-width: 1025px) {
+    #main-image-holder {
+        max-height: 80vh;
+        padding: 17rem 2rem;
+    }
+    #name-div {
+        bottom: 200px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     #name-div{
         position: relative;
-        left: -70px;
-        top: 10px;
+        left: 0px;
+        bottom: 180px;
     }
     #main-image-holder {
-        padding: 0 0 3rem 0;
-        min-height: 60vh;
+        padding: 13rem 2rem;
+        max-height: 70vh;
     }
 
     #job-label {
         font-size: 1.5rem;
         margin-left: 35px;
     }
+    #home-name {
+        height: 40%;
+        width: 60%;
+    }
+    
 }
 @media only screen and (max-width: 650px) {
     #home-name {
@@ -210,11 +231,11 @@ footer{
     }
     #name-div{
         position: relative;
-        left: -20px;
+        /* left: -20px; */
     }
     #main-image-holder {
-        min-height: 50vh;
-        padding-bottom: 250px;
+        max-height: 50vh;
+        padding: 10rem 2rem;
         
     }
     #job-label {
@@ -232,14 +253,15 @@ footer{
     }
     #name-div{
         position: relative;
-        left: 10px;
+        left: -10px;
     }
     #main-image-holder {
-        min-height: 40vh;
-        padding-right: 25px;
+        padding: 10rem 0;
     }
     #job-label {
         font-size: 1rem;
-        margin-left: 20px;
+        margin: 0;
+        padding: 1rem;
     }
-}
+    
+    }
