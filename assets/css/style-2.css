@@ -162,9 +162,4 @@
     padding-bottom: 75px;
 }
 
-@media only screen and (max-width: 574px) {
-    #my-logo {
-        margin-left: 50px;
-    }
 
-}
