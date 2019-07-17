@@ -11,9 +11,7 @@ body {
     border-image: linear-gradient(90deg, #95dff5, #1120ea);
     border-bottom: 8px solid;
     border-image-slice: 1;
-    
 }
-
 
 li+li { 
     border-left: 1px solid #0e1df3;
@@ -27,7 +25,7 @@ a:hover {
     color: #6b6d6d;
 }
 
-/* media quieries for header and index page */
+/* media quieries for header */
 
 @media only screen and (max-width: 767px) {
     .navbar {
@@ -42,15 +40,12 @@ a:hover {
     .navbar-brand {
         margin: 0;
         width: 100%;
-        /* padding: 20px 0; */
     }
 
     li {
         padding: 0 10px;
         margin: 10px 0;
     }
-
-
    #bio-image {
        margin-left: 20%;
        margin-right: 20%;
@@ -74,13 +69,9 @@ a:hover {
 
 h1 {
     color:  #0e0ee2;
-    /* margin: 30px; */
 }
 #center-image {
     background-image: url("../images/geometric-background.png");
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
     overflow: hidden;
     min-height: 100%;
     padding-bottom: 200px;
@@ -101,14 +92,17 @@ h1 {
     padding: 1rem;
     color: #1120ea;
     border-radius: 10px;
+    display: block;
+    
 }
 #contact-bar img {
     width: 30px;
     height: 30px;
-    /* padding: 1rem; */
 }
 #contact-bar span {
     margin: 0 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 @media only screen and (max-width: 989px) {
     #bio-image {
@@ -125,6 +119,7 @@ h1 {
     #bio-image {
         width: 350px;
     }
+   
 }
 /* footer content */
 
@@ -282,7 +277,7 @@ footer{
     }
     #my-logo {
         position: relative;
-        left: 70px;
+        left: 20px;
     }
     
     
