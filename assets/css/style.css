@@ -42,7 +42,7 @@ a:hover {
     .navbar-brand {
         margin: 0;
         width: 100%;
-        padding: 20px 0;
+        /* padding: 20px 0; */
     }
 
     li {
@@ -225,6 +225,11 @@ footer{
         height: 40%;
         width: 60%;
     }
+    #my-logo {
+        position: relative;
+        top: 55px;
+        left: 90px;
+    }
    
     
 }
@@ -250,6 +255,7 @@ footer{
     #main-content-holder {
         padding: 10rem 0;
     }
+   
 }
 @media only screen and (max-width: 505px) {
     #home-name {
@@ -271,8 +277,13 @@ footer{
         padding: 1rem;
     }
     #main-content-holder {
-        padding: 12rem 0;
+        padding: 13rem 0;
         margin: 0 auto;
     }
+    #my-logo {
+        position: relative;
+        left: 70px;
+    }
+    
     
     }
