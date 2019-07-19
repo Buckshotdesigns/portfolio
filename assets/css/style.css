@@ -118,6 +118,7 @@ h1 {
 @media only screen and (max-width: 426px) {
     #bio-image {
         width: 350px;
+        max-height: 300px;
     }
    
 }
@@ -129,7 +130,7 @@ footer{
     border-image: linear-gradient(90deg, #1120ea, #95dff5);
     border-image-slice: 1;
     text-align: center;
-    padding: 20px;
+    padding: 3rem;
     color: #777777;
 }
 
@@ -140,13 +141,13 @@ footer{
 }
 #main-content-holder {
     background-color: #000000;
-    padding-top: 4rem;
+    /* padding: 4rem 0; */
 }
 #main-image-holder {
     background-image: url("../images/profile5.gif");
     background-size: cover;
     background-repeat: no-repeat;
-    max-height: 80vh;
+    max-height: 100vh;
     max-width:100%;
     background-position: center;
     padding: 14rem 4rem;
