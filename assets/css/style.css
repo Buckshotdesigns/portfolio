@@ -118,7 +118,7 @@ h1 {
 @media only screen and (max-width: 426px) {
     #bio-image {
         width: 350px;
-        max-height: 375px;
+        max-height: 275px;
         padding: 1rem;
     }
    
