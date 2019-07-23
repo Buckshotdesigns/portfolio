@@ -2,6 +2,7 @@
 body {
     
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: black;
 }
 
 
@@ -281,9 +282,7 @@ footer{
         position: relative;
         left: 20px;
     }
-    body {
-        background-color: #000000;
-    }
+    
     footer{
         margin-top: 20px;
         padding-top: 60px;
