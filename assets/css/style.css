@@ -19,7 +19,7 @@ li+li {
 }
 
 a {
-    color: #13d1eb;
+    color: #1386eb;
 }
 
 a:hover {
@@ -190,6 +190,7 @@ footer{
 .contact-info {
     color: #fff;
     padding: 1.5rem 0 0 4rem;
+    font-size: 24px;
 }
 @media only screen and (max-width: 1025px) {
     #main-image-holder {
@@ -227,6 +228,9 @@ footer{
         position: relative;
         top: 55px;
         left: 90px;
+    }
+    .contact-info {
+        font-size: 18px;
     }
    
     

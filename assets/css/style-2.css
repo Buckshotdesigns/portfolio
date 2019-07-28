@@ -1,8 +1,6 @@
 .view {
     width: 350px;
     height: 300px;
-    /* margin: 10px; */
-    /* float: left; */
     border: 10px solid #fff;
     overflow: hidden;
     position: relative;
@@ -29,7 +27,7 @@
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 17px;
+    font-size: 22px;
     padding: 10px;
     background: rgba(0, 0, 0, 0.8);
     margin: 20px 0 0 0
@@ -43,15 +41,7 @@
     padding: 10px 20px 0px 20px;
     text-align: center
 }
-/* .view a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px 0 14px;
-    background: #000;
-    color: #fff;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000
-} */
+
 .view a.info:hover {
     box-shadow: 0 0 5px #000
 }
@@ -113,6 +103,13 @@
 .view-ninth:hover .mask-2 {  
     transform: rotate(49.5deg) translateX(-100px);
 }
+
+.launch-app {
+    margin-top: 40px;
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 10px;
+}
 #project-heading {
     text-align: center;
     padding-bottom: 20px;
@@ -141,7 +138,8 @@
     background-position: center;  
     background-repeat: no-repeat; 
     background-size: cover;
-   padding-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 250px;
     background-color: #000;
 }
 
@@ -155,11 +153,72 @@
     margin-right: -1px;
     border-radius: 5px;
 }
+#card-info {
+    width: 350px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 3px;
+
+}
 #top-row{
     padding-bottom: 100px;
 }
 #bottom-row {
     padding-bottom: 75px;
 }
+
+/* drop down info */
+
+.droptxt {
+    text-align: center;
+    color: rgb(9, 101, 238);
+    background-color: #fff;
+    padding: 5px 3px 5px 0;
+    position: relative;
+    top: 7px;
+    margin-right: -1px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 350px;
+
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    max-width: 350px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color: #1b1b1b;
+    min-width: 160px;
+    max-width: 350px;
+    padding: 10px;
+    z-index: 1;
+    color: #fff;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+   font-size: 22px;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .droptxt {
+    background-color: #44b2ee;
+  }
 
 
