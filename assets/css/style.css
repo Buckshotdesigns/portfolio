@@ -24,6 +24,7 @@ a {
 
 a:hover {
     color: #6b6d6d;
+    text-decoration: none;
 }
 
 /* media quieries for header */
