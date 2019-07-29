@@ -184,17 +184,13 @@
     border: none;
     cursor: pointer;
     width: 350px;
-
   }
   
-  /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
     max-width: 350px;
   }
-  
-  /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     text-align: center;
     display: none;
@@ -206,17 +202,13 @@
     z-index: 1;
     color: #fff;
   }
-  
-  /* Links inside the dropdown */
   .dropdown-content a {
    font-size: 22px;
   }
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .droptxt {
     background-color: #44b2ee;
   }
