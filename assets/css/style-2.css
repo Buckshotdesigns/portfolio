@@ -202,7 +202,7 @@
     background-color: #1b1b1b;
     min-width: 160px;
     max-width: 350px;
-    padding: 10px;
+    padding: 20px;
     z-index: 1;
     color: #fff;
   }
@@ -219,6 +219,19 @@
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .droptxt {
     background-color: #44b2ee;
+  }
+  #drop-button {
+      background-color: rgb(15, 120, 233);
+      color: #fff;
+      border-radius: 10px;
+      border: none;
+      padding: 0 10px;
+      font-size: 18px;
+  }
+
+  #drop-button:hover {
+    background-color: #1010e6;
+    color: rgb(204, 200, 200);
   }
 
 
