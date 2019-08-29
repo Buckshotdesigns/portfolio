@@ -289,8 +289,8 @@ footer{
         left: 20px;
     }
     .contact-info {
-        margin: 0 auto;
-        padding: 0;
+        margin-bottom: 2rem;
+        padding: 2rem 0 2rem 2rem ;
         align-items: center;
     }
     
