@@ -267,8 +267,13 @@ footer{
         bottom: 475px;
     }
     #main-image-holder {
-        max-height: 60vh;
-        padding: 12rem 0 0 0;
+        background-image: url("../images/center-profile.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 50vh;
+        max-width:100%;
+        background-position: center;
+        padding-top: 14rem;
     }
     #job-label {
         font-size: 1rem;
@@ -285,7 +290,7 @@ footer{
     }
     
     footer{
-        margin-top: 20px;
+        /* margin-top: 20px; */
         padding-top: 60px;
     }
     
