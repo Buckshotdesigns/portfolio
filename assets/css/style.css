@@ -263,7 +263,8 @@ footer{
     }
     #name-div{
         position: relative;
-        left: 40px;
+        justify-content: center;
+        left: 80px;
         bottom: 475px;
     }
     #main-image-holder {
@@ -286,11 +287,11 @@ footer{
     }
     #my-logo {
         position: relative;
-        left: 20px;
+        left: 40px;
     }
     .contact-info {
         margin-bottom: 2rem;
-        padding: 2rem 0 2rem 2rem ;
+        padding: 2rem 0;
         align-items: center;
     }
     
