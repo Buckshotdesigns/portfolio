@@ -9,9 +9,7 @@ body {
 /* navigation  */
 #nav-container {
     background-color: #000000;
-    border-image: linear-gradient(90deg, #95dff5, #1120ea);
-    border-bottom: 8px solid;
-    border-image-slice: 1;
+    border-bottom: 8px solid #0e1df3;
 }
 
 li+li { 
@@ -129,9 +127,7 @@ h1 {
 
 footer{
     background-color: #000000; 
-    border-top: 8px solid;
-    border-image: linear-gradient(90deg, #1120ea, #95dff5);
-    border-image-slice: 1;
+    border-top: 8px solid #0e1df3;
     text-align: center;
     padding: 3rem;
     color: #777777;
@@ -271,7 +267,7 @@ footer{
         bottom: 475px;
     }
     #main-image-holder {
-        max-height: 55vh;
+        max-height: 60vh;
         padding: 12rem 0 0 0;
     }
     #job-label {
