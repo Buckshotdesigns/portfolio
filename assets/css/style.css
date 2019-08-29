@@ -299,5 +299,8 @@ footer{
         /* margin-top: 20px; */
         padding-top: 60px;
     }
+    #github-span {
+        padding-left: 4rem;
+    }
     
     }
