@@ -1,246 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Portfolio</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/style-2.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style-2.css" />
+  </head>
+  <body>
+    <!-- navigation -->
+    <div id="nav-container">
+      <div class="container">
+        <nav class="navbar navbar-expand-md">
+          <div class="navbar-brand">
+            <a href="index.html"
+              ><img id="my-logo" src="assets/images/b2logo.png"
+            /></a>
+          </div>
 
-</head>
-<body>
-	<!-- navigation -->
-	<div id="nav-container">
-		<div class="container">
-			<nav class="navbar navbar-expand-md">
-					<div class="navbar-brand"><a href="index.html"><img id="my-logo" src="assets/images/b2logo.png"></a></div>
-	
-				<ul class="navbar-nav ml-sm-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="portfolio.html">Portfolio</a>
-					</li>
-				</ul>
-		
-			</nav>
-		</div>
-	</div>
-	<!-- first row -->
-	<div id="portfolio-background-image">
-		<div class="container">
-			<h1 id="project-heading">Portfolio Projects</h1>
-			<div class="my-flex-row" id="top-row">
-				<div class="my-flex-column">
-					<div class="view view-ninth">  
-							<img id="portfolio-image" src="assets/images/guitar.png" />  
-						<div class="mask mask-1"></div>
-						<div class="mask mask-2"></div>
-						<div class="content">
-							<h2>Mbnb</h2>
-								<button class="launch-app"><a href="http://mbnb23.herokuapp.com" target="blank">Launch App</a></button>
-								<p>mouse over title below for details</p>
-						</div>
-					</div> 
-					<div class="dropdown">
-					<a href="#"><h2 class="droptxt">Mbnb</h2></a>
-					<div class="dropdown-content">
-							<p>A music equipment rental app. Mbnb is an online rental platform where users who wants to rent music equipment can easily connect with users who have music equipment available to rent.
-							Mbnb is a perfect platform to spread love of music via connecting users who need musical equipment to users who have musical equipment.</p>
-							<p>Full-Stack application using React.Js front-end, MySQL database,Sequielize, Axios, Passport for login, Express & express-sessions.</p>
-							<a href="https://github.com/Buckshotdesigns/Music-BnB"><button id="drop-button">Github Link</button></a>
-							
-					</div>
-					</div>
-				</div>
-			<div class="my-flex-column">
-				<div class="view view-ninth">  
-						<img id="portfolio-image"src="assets/images/task-manager.jpg" />  
-					<div class="mask mask-1"></div>
-					<div class="mask mask-2"></div>
-					<div class="content">
-						<h2>Task Manager</h2>
-							<button class="launch-app"><a href="https://task-manager-project-2.herokuapp.com" target="blank">Launch App</a></button>
-							<p>mouse over title below for details</p>
-					</div>
-				</div> 
-				<div class="dropdown">
-					<a href="#"><h2 class="droptxt">Task Manager</h2></a>
-						<div class="dropdown-content">
-						<p>For Task Manager, we have created an app that allows families to create chore lists, display the list of users and their associated chores, update the list by marking chores as they are completed, and then deleting them.</p>
-						<p>Full-Stack application using Node.JS, Express, Handlebars, MySQL, Passport.JS</p>
-						<a href="https://github.com/Buckshotdesigns/task-manager"><button id="drop-button">Github Link</button></a>
-					</div>
-				</div>
-			</div>
-			<div class="my-flex-column">
-					<div class="view view-ninth">  
-							<img id="portfolio-image"src="assets/images/dog.jpg" />  
-						<div class="mask mask-1"></div>
-						<div class="mask mask-2"></div>
-						<div class="content">
-							<h2>Adopt a Doggy Dog</h2>
-								<button class="launch-app"><a href="https://adopt-a-doggy-dog.herokuapp.com/index.html" target="blank">Launch App</a></button>
-								<p>mouse over title below for details</p>
-						</div>
-					</div> 
-						<div class="dropdown">
-							<a href="#"><h2 class="droptxt">Adopt a Doggy Dog</h2></a>
-							<div class="dropdown-content">
-								<p>In this project, the website developed was based on selecting a dog by breed to search Cleveland area animal shelters that are open to adoption so users can choose a dog locally if they are searching for a specific breed.</p>
-								<p>A web page using HTML, CSS, AJAX using API calls from Petfinder and Wikipedia, Javascript, Jquery, Modal, Spinner.Js</p>
-								<a href="https://github.com/Buckshotdesigns/adopt-a-doggy-dog"><button id="drop-button">Github Link</button></a>
-							</div>
-						</div>
-					</div>
-				</div>
-		<!-- second row -->
-		<h1 id="project-heading">Class Homework Projects</h1>
-		<div class="my-flex-row" id="bottom-row">
-				<div class="my-flex-column">
-						<div class="view view-ninth">  
-								<img id="portfolio-image"src="assets/images/simpsons.jpg" />  
-							<div class="mask mask-1"></div>
-							<div class="mask mask-2"></div>
-							<div class="content">
-								<h2>Clicky Game</h2>
-									<button class="launch-app"><a href="https://buckshotdesigns.github.io/clicky-game/" target="blank">Launch App</a></button>
-									<p>mouse over title below for details</p>
-							</div>
-						</div>  
-						<div class="dropdown">
-							<a href="#"><h2 class="droptxt">Clicky Game</h2></a>
-							<div class="dropdown-content">
-								<p>This is a fun game that lets you click on each card without repeating clicks to see if you can select them all with no doubles.</p>
-								<p>This game uses React.Js, HTML, Bootstrap, Css3, Javascript</p>
-								<a href="https://github.com/Buckshotdesigns/clicky-game"><button id="drop-button">Github Link</button></a>
-							</div>
-						</div>
-							
-				</div>
-			<div class="my-flex-column">
-			<div class="view view-ninth">  
-					<img id="portfolio-image" src="https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif" />  
-				<div class="mask mask-1"></div>
-				<div class="mask mask-2"></div>
-				<div class="content">
-					<h2>Gif-tastic!</h2>
-						<button class="launch-app"><a href="https://giftastic-gif-generator.herokuapp.com/index.html" target="blank">Launch App</a></button>
-						<p>mouse over title below for details</p>
-				</div>
-			</div>  
-			<div class="dropdown">
-				<a href="#"><h2 class="droptxt">GifTastic Gif Generator</h2></a>
-						<div class="dropdown-content">
-							<p>GifTastic is a simple but fun Gif generator based on movies. Click the button to load GIFs or type the name of one and add your own.</p>
-							<p>The generator is made with: HTML, Bootstrap, Css3, Javascript, JQuery, Ajax using the Giphy API</p>
-							<a href="https://github.com/Buckshotdesigns/gifTastic"><button id="drop-button">Github Link</button></a>
-						</div>
-				</div>
-			</div>
-			<div class="my-flex-column">
-				<div class="view view-ninth">  
-						<img id="portfolio-image"src="assets/images/trivia.jpg" />  
-					<div class="mask mask-1"></div>
-					<div class="mask mask-2"></div>
-					<div class="content">
-						<h2>Trivia Game</h2>
-							<button class="launch-app"><a href="https://trivia-movie-game.herokuapp.com/index.html" target="blank">Launch App</a></button>
-							<p>mouse over title below for details</p>
-					</div>
-				</div> 
-				<div class="dropdown">
-					<a href="#"><h2 class="droptxt">Trivia Game</h2></a>
-						<div class="dropdown-content">
-							<p>Welcome to my pop culture movie trivia game You have 30 seconds to answer each movie related trivia question. If you dont answer in time the next question will appear and you will have . At the end of the game you can see how many you got right, wrong, and unanswered in time. How much movie trivia do you think you know.</p>
-							<p>The trivia game is made with: HTML, Bootstrap, Css3, Javascript, JQuery, Ajax using the Giphy API</p>
-							<a href="https://github.com/Buckshotdesigns/TriviaGame"><button id="drop-button">Github Link</button></a>
-						</div>
-				</div>
-			</div>
-			
-			<div class="my-flex-column">
-			<div class="view view-ninth">  
-					<img id="portfolio-image" src="assets/images/skull.jpg" />  
-				<div class="mask mask-1"></div>
-				<div class="mask mask-2"></div>
-				<div class="content">
-					<h2>The Bone collector</h2>
-						<button class="launch-app"><a href="https://bone-collector.herokuapp.com/index.html" target="blank">Launch App</a></button>
-						<p>mouse over title below for details</p>
-				</div>
-			</div>  
-				<div class="dropdown">
-					<a href="#"><h2 class="droptxt">The Bone Collector</h2></a>
-					<div class="dropdown-content">
-						<p>You will be given a random number at the start of the game
-								There are four skeletons below. By clicking on a skeleton you will add a specific amount of points to your total score.
-								You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
-								The value of each skeleton is hidden from you until you click on it.
-								Each time when the game starts, the game will change the values of the skeletons.
-								The idea is to due some quick math to figure out the hidden values of the skeletons adding them together to reach a random target number</p>
-						<p>The Bone collector is made with: HTML, Bootstrap, Css3, Javascript</p>
-						<a href="https://github.com/Buckshotdesigns/Bone-collector"><button id="drop-button">Github Link</button></a>
-					</div>
-				</div>
-			</div>
-			<div class="my-flex-column">
-				<div class="view view-ninth">  
-						<img id="portfolio-image"src="assets/images/ny-times.jpg" />  
-					<div class="mask mask-1"></div>
-					<div class="mask mask-2"></div>
-					<div class="content">
-						<h2>NY Times Mongo Scraper</h2>
-							<button class="launch-app"><a href="https://mongo-scraper-nytimes-edition.herokuapp.com" target="blank">Launch App</a></button>
-							<p>mouse over title below for details</p>
-					</div>
-				</div> 
-				<div class="dropdown">
-					<a href="#"><h2 class="droptxt">NY Times Scraper</h2></a>
-						<div class="dropdown-content">
-							<p>Its an easy way to see and save the articles you want and dismiss the ones you don't from the New York Times. The mongo scraper is an application that reaches out to the Ny Times website and gathers all the most recent headlines and displays them so you save them for later or delete them if you don't want to read them. You can also see your saved articles and make notes about them!</p>
-							<p>A Full-Stack application using HTML, Bootstrap, Css3, Javascript, Node modules, Express, Express-Handlebars, MongoDB, Mongoose.</p>
-							<a href="https://github.com/Buckshotdesigns/mongo-scraper"><button id="drop-button">Github Link</button></a>
-						</div>
-					</div>
-			</div>
-			<div class="my-flex-column">
-					<div class="view view-ninth">  
-							<img id="portfolio-image"src="assets/images/cartoon.jpg" />  
-						<div class="mask mask-1"></div>
-						<div class="mask mask-2"></div>
-						<div class="content">
-							<h2>Cartoon Friend Finder</h2>
-								<button class="launch-app"><a href="https://mighty-brook-40725.herokuapp.com" target="blank">Launch App</a></button>
-								<p>mouse over title below for details</p>
-						</div>
-					</div>  
-						<div class="dropdown">
-							<a href="#"><h2 class="droptxt">Cartoon Friend Finder</h2></a>
-							<div class="dropdown-content">
-								<p>The friend finder app is an interactive application that returns cartoon characters as cartoon side kicks.</p>
-								<p>A Full-Stack game using: HTML, Bootstrap, Css3, Javascript, Node, Express</p>
-								<a href="https://github.com/Buckshotdesigns/FriendFinder"><button id="drop-button">Github Link</button></a>
-							</div>
-						</div>
-			</div>
-		
-		</div>
-		</div>
-		
-	</div>
-	<!-- footer -->
-	<footer class="footer">
-                        
-			<span class="text-muted">Copyright © Bryan Buckus Inc.</span>
-						   
-		</footer>
-	
-</body>
-</html>                                		                            
+          <ul class="navbar-nav ml-sm-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- first row -->
+    <div id="portfolio-background-image">
+      <div class="container">
+        <h1 id="project-heading">Portfolio Projects</h1>
+        <div class="my-flex-row" id="top-row">
+          <div class="my-flex-column">
+            <div class="view view-ninth">
+              <img id="portfolio-image" src="assets/images/guitar.png" />
+              <div class="mask mask-1"></div>
+              <div class="mask mask-2"></div>
+              <div class="content">
+                <h2>Mbnb</h2>
+                <button class="launch-app">
+                  <a href="http://mbnb23.herokuapp.com" target="blank"
+                    >Launch App</a
+                  >
+                </button>
+                <p>mouse over title below for details</p>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#"><h2 class="droptxt">Mbnb</h2></a>
+              <div class="dropdown-content">
+                <p>
+                  A music equipment rental app. Mbnb is an online rental
+                  platform where users who wants to rent music equipment can
+                  easily connect with users who have music equipment available
+                  to rent. Mbnb is a perfect platform to spread love of music
+                  via connecting users who need musical equipment to users who
+                  have musical equipment.
+                </p>
+                <p>
+                  Full-Stack application using React.Js front-end, MySQL
+                  database,Sequielize, Axios, Passport for login, Express &
+                  express-sessions.
+                </p>
+                <a href="https://github.com/Buckshotdesigns/Music-BnB"
+                  ><button id="drop-button">Github Link</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="my-flex-column">
+            <div class="view view-ninth">
+              <img id="portfolio-image" src="assets/images/task-manager.jpg" />
+              <div class="mask mask-1"></div>
+              <div class="mask mask-2"></div>
+              <div class="content">
+                <h2>Task Manager</h2>
+                <button class="launch-app">
+                  <a
+                    href="https://task-manager-project-2.herokuapp.com"
+                    target="blank"
+                    >Launch App</a
+                  >
+                </button>
+                <p>mouse over title below for details</p>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#"><h2 class="droptxt">Task Manager</h2></a>
+              <div class="dropdown-content">
+                <p>
+                  For Task Manager, we have created an app that allows families
+                  to create chore lists, display the list of users and their
+                  associated chores, update the list by marking chores as they
+                  are completed, and then deleting them.
+                </p>
+                <p>
+                  Full-Stack application using Node.JS, Express, Handlebars,
+                  MySQL, Passport.JS
+                </p>
+                <a href="https://github.com/Buckshotdesigns/task-manager"
+                  ><button id="drop-button">Github Link</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="my-flex-column">
+            <div class="view view-ninth">
+              <img id="portfolio-image" src="assets/images/dog.jpg" />
+              <div class="mask mask-1"></div>
+              <div class="mask mask-2"></div>
+              <div class="content">
+                <h2>Adopt a Doggy Dog</h2>
+                <button class="launch-app">
+                  <a
+                    href="https://adopt-a-doggy-dog-production.up.railway.app/"
+                    target="blank"
+                    >Launch App</a
+                  >
+                </button>
+                <p>mouse over title below for details</p>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#"><h2 class="droptxt">Adopt a Doggy Dog</h2></a>
+              <div class="dropdown-content">
+                <p>
+                  In this project, the website developed was based on selecting
+                  a dog by breed to search Cleveland area animal shelters that
+                  are open to adoption so users can choose a dog locally if they
+                  are searching for a specific breed.
+                </p>
+                <p>
+                  A web page using HTML, CSS, AJAX using API calls from
+                  Petfinder and Wikipedia, Javascript, Jquery, Modal, Spinner.Js
+                </p>
+                <a href="https://github.com/Buckshotdesigns/adopt-a-doggy-dog"
+                  ><button id="drop-button">Github Link</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- second row -->
+        <h1 id="project-heading">Class Homework Projects</h1>
+        <div class="my-flex-row" id="bottom-row">
+          <div class="my-flex-column">
+            <div class="view view-ninth">
+              <img id="portfolio-image" src="assets/images/simpsons.jpg" />
+              <div class="mask mask-1"></div>
+              <div class="mask mask-2"></div>
+              <div class="content">
+                <h2>Clicky Game</h2>
+                <button class="launch-app">
+                  <a
+                    href="https://buckshotdesigns.github.io/clicky-game/"
+                    target="blank"
+                    >Launch App</a
+                  >
+                </button>
+                <p>mouse over title below for details</p>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#"><h2 class="droptxt">Clicky Game</h2></a>
+              <div class="dropdown-content">
+                <p>
+                  This is a fun game that lets you click on each card without
+                  repeating clicks to see if you can select them all with no
+                  doubles.
+                </p>
+                <p>
+                  This game uses React.Js, HTML, Bootstrap, Css3, Javascript
+                </p>
+                <a href="https://github.com/Buckshotdesigns/clicky-game"
+                  ><button id="drop-button">Github Link</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="my-flex-column">
+            <div class="view view-ninth">
+              <img
+                id="portfolio-image"
+                src="https://media.giphy.com/media/ko7twHhomhk8E/giphy.gif"
+              />
+              <div class="mask mask-1"></div>
+              <div class="mask mask-2"></div>
+              <div class="content">
+                <h2>Gif-tastic!</h2>
+                <button class="launch-app">
+                  <a
+                    href="https://giftastic-gif-generator.herokuapp.com/index.html"
+                    target="blank"
+                    >Launch App</a
+                  >
+                </button>
+                <p>mouse over title below for details</p>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#"><h2 class="droptxt">GifTastic Gif Generator</h2></a>
+              <div class="dropdown-content">
+                <p>
+                  GifTastic is a simple but fun Gif generator based on movies.
+                  Click the button to load GIFs or type the name of one and add
+                  your own.
+                </p>
+                <p>
+                  The generator is made with: HTML, Bootstrap, Css3, Javascript,
+                  JQuery, Ajax using the Giphy API
+                </p>
+                <a href="https://github.com/Buckshotdesigns/gifTastic"
+                  ><button id="drop-button">Github Link</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="my-flex-column">
+            <div class="view view-ninth">
+              <img id="portfolio-image" src="assets/images/trivia.jpg" />
+              <div class="mask mask-1"></div>
+              <div class="mask mask-2"></div>
+              <div class="content">
+                <h2>Trivia Game</h2>
+                <button class="launch-app">
+                  <a
+                    href="https://trivia-movie-game.herokuapp.com/index.html"
+                    target="blank"
+                    >Launch App</a
+                  >
+                </button>
+                <p>mouse over title below for details</p>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#"><h2 class="droptxt">Trivia Game</h2></a>
+              <div class="dropdown-content">
+                <p>
+                  Welcome to my pop culture movie trivia game You have 30
+                  seconds to answer each movie related trivia question. If you
+                  dont answer in time the next question will appear and you will
+                  have . At the end of the game you can see how many you got
+                  right, wrong, and unanswered in time. How much movie trivia do
+                  you think you know.
+                </p>
+                <p>
+                  The trivia game is made with: HTML, Bootstrap, Css3,
+                  Javascript, JQuery, Ajax using the Giphy API
+                </p>
+                <a href="https://github.com/Buckshotdesigns/TriviaGame"
+                  ><button id="drop-button">Github Link</button></a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="my-flex-column">
+            <div class="view view-ninth">
+              <img id="portfolio-image" src="assets/images/skull.jpg" />
+              <div class="mask mask-1"></div>
+              <div class="mask mask-2"></div>
+              <div class="content">
+                <h2>The Bone collector</h2>
+                <button class="launch-app">
+                  <a
+                    href="https://bone-collector.herokuapp.com/index.html"
+                    target="blank"
+                    >Launch App</a
+                  >
+                </button>
+                <p>mouse over title below for details</p>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#"><h2 class="droptxt">The Bone Collector</h2></a>
+              <div class="dropdown-content">
+                <p>
+                  You will be given a random number at the start of the game
+                  There are four skeletons below. By clicking on a skeleton you
+                  will add a specific amount of points to your total score. You
+                  win the game by matching your total score to the random
+                  number, you lose the game if your total score goes above the
+                  random number. The value of each skeleton is hidden from you
+                  until you click on it. Each time when the game starts, the
+                  game will change the values of the skeletons. The idea is to
+                  due some quick math to figure out the hidden values of the
+                  skeletons adding them together to reach a random target number
+                </p>
+                <p>
+                  The Bone collector is made with: HTML, Bootstrap, Css3,
+                  Javascript
+                </p>
+                <a href="https://github.com/Buckshotdesigns/Bone-collector"
+                  ><button id="drop-button">Github Link</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="my-flex-column">
+            <div class="view view-ninth">
+              <img id="portfolio-image" src="assets/images/ny-times.jpg" />
+              <div class="mask mask-1"></div>
+              <div class="mask mask-2"></div>
+              <div class="content">
+                <h2>NY Times Mongo Scraper</h2>
+                <button class="launch-app">
+                  <a
+                    href="https://mongo-scraper-nytimes-edition.herokuapp.com"
+                    target="blank"
+                    >Launch App</a
+                  >
+                </button>
+                <p>mouse over title below for details</p>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#"><h2 class="droptxt">NY Times Scraper</h2></a>
+              <div class="dropdown-content">
+                <p>
+                  Its an easy way to see and save the articles you want and
+                  dismiss the ones you don't from the New York Times. The mongo
+                  scraper is an application that reaches out to the Ny Times
+                  website and gathers all the most recent headlines and displays
+                  them so you save them for later or delete them if you don't
+                  want to read them. You can also see your saved articles and
+                  make notes about them!
+                </p>
+                <p>
+                  A Full-Stack application using HTML, Bootstrap, Css3,
+                  Javascript, Node modules, Express, Express-Handlebars,
+                  MongoDB, Mongoose.
+                </p>
+                <a href="https://github.com/Buckshotdesigns/mongo-scraper"
+                  ><button id="drop-button">Github Link</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="my-flex-column">
+            <div class="view view-ninth">
+              <img id="portfolio-image" src="assets/images/cartoon.jpg" />
+              <div class="mask mask-1"></div>
+              <div class="mask mask-2"></div>
+              <div class="content">
+                <h2>Cartoon Friend Finder</h2>
+                <button class="launch-app">
+                  <a
+                    href="https://mighty-brook-40725.herokuapp.com"
+                    target="blank"
+                    >Launch App</a
+                  >
+                </button>
+                <p>mouse over title below for details</p>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#"><h2 class="droptxt">Cartoon Friend Finder</h2></a>
+              <div class="dropdown-content">
+                <p>
+                  The friend finder app is an interactive application that
+                  returns cartoon characters as cartoon side kicks.
+                </p>
+                <p>
+                  A Full-Stack game using: HTML, Bootstrap, Css3, Javascript,
+                  Node, Express
+                </p>
+                <a href="https://github.com/Buckshotdesigns/FriendFinder"
+                  ><button id="drop-button">Github Link</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+      <span class="text-muted">Copyright © Bryan Buckus Inc.</span>
+    </footer>
+  </body>
+</html>
